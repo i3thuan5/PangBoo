@@ -36,3 +36,8 @@ jobs:
         - pip install tox
       script:
         - tox -e test
+    - name: Behave
+      install:
+        - pip install tox
+      script:
+        - tox -e behave
