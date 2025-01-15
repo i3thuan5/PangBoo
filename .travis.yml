@@ -16,12 +16,20 @@ jobs:
         - pip install tox
       script:
         - tox -e yamllint
-    - name: pymarkdown
+    - name: Check Markdown Format
       install:
         - pip install tox
       script:
         - tox -e pymarkdown
-    - name: flake8
+    - name: Check Gherkin format
+      language: node_js
+      node_js: 22
+      before_install: skip
+      install:
+        - npm install gherkin-lint
+      script:
+        - npx gherkin-lint
+    - name: Check Python Format
       install:
         - pip install tox
       script:

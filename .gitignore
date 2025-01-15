@@ -169,3 +169,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# gherkin-lint
+node_modules/
+package.json
+package-lock.json
