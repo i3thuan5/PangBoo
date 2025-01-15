@@ -9,7 +9,6 @@
   "no-empty-file": "on",
   "no-examples-in-scenarios": "on",
   "no-scenario-outlines-without-examples": "on",
-  "no-files-without-scenarios": "on",
   "no-multiple-empty-lines": "on",
   "use-and": "on",
   "indentation": [
@@ -18,6 +17,8 @@
   "no-trailing-spaces": "on",
   "new-line-at-eof": ["on", "yes"],
   "one-space-between-tags": "on",
+
+  "no-files-without-scenarios": "off",
   "allowed-tags": [
     "on", {"tags": ["@caho還沒做", "@wip", "@maherekayto做好了"]}
   ]
