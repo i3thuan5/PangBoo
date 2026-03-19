@@ -17,7 +17,7 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "anthropic.claude-dev"
+                "anthropic.claude-code"
             ]
         }
     },
