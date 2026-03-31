@@ -21,6 +21,6 @@
             ]
         }
     },
-    "postCreateCommand": "npm install -g @anthropic-ai/claude-code @fission-ai/openspec@latest",
+    "postCreateCommand": "npm install -g @fission-ai/openspec@latest",
     "remoteUser": "vscode"
 }
