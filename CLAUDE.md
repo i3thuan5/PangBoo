@@ -13,15 +13,15 @@ Claude Code **毋准**執行下底ê git 指令（會影響 staged 檔案、comm
 - `git pull`
 - `git fetch`
 
-**准**執行ê git 指令（查看抑是暫存，毋影響紀錄）：
+**准**執行下底ê git 指令（查看抑是暫存，毋影響紀錄）：
 
 - `git stash`、`git stash pop`、`git stash apply`、`git stash list`
 - `git log`、`git show`、`git diff`、`git status`
-- `git branch`（列出，毋是建立抑是刪除）
+- `git branch`（列出，毋是建立抑是hìnn-sak）
 - `git restore <file>`（working tree only，無 `--staged`）
 
 程式碼修改（Edit、Write、等工具）會用得用。
 
-# Python 寫作風格
+# Python sir-tái-luh
 
-- `for` 迴圈放 **前面**（`for x in ...:`），毋准用 list comprehension 抑是 generator expression 將 `for` 放 tī 後壁（`[... for x in ...]`），除非有特殊理由。
+- `for` khǹg 頭前（`for x in ...:`），毋准用 list comprehension 抑是 generator expression kā `for` khǹg tī 後壁（`[... for x in ...]`）。若欲，ài 有特殊理由，而且經過使用者同意。
