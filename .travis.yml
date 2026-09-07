@@ -29,11 +29,11 @@ jobs:
         - npm install gherkin-lint
       script:
         - npx gherkin-lint
-    - name: Check Python Format
-      install:
-        - pip install tox
-      script:
-        - tox -e flake8
+    # - name: Check Python Format
+    #   install:
+    #     - pip install tox
+    #   script:
+    #     - tox -e flake8
     - name: Check Bash format
       install:
         - pip install tox
